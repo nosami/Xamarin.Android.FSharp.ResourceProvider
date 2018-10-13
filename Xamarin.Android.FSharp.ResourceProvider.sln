@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{422D
 EndProject
 Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "AndroidApp", "AndroidApp\AndroidApp.fsproj", "{87437894-A730-4664-9614-240AF0C047C2}"
 EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "BlankFormsApp", "BlankFormsApp\BlankFormsApp.fsproj", "{6D1ECBAF-8787-4642-AB46-701D6B0ED6A8}"
+EndProject
+Project("{f2a71f9b-5d33-465a-a702-920d77279786}") = "BlankFormsApp.Droid", "Droid\BlankFormsApp.Droid.fsproj", "{9B59859A-16CF-4B14-8623-AF05C3623FC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,8 +38,18 @@ Global
 		{87437894-A730-4664-9614-240AF0C047C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87437894-A730-4664-9614-240AF0C047C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87437894-A730-4664-9614-240AF0C047C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1ECBAF-8787-4642-AB46-701D6B0ED6A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1ECBAF-8787-4642-AB46-701D6B0ED6A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1ECBAF-8787-4642-AB46-701D6B0ED6A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1ECBAF-8787-4642-AB46-701D6B0ED6A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B59859A-16CF-4B14-8623-AF05C3623FC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B59859A-16CF-4B14-8623-AF05C3623FC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B59859A-16CF-4B14-8623-AF05C3623FC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B59859A-16CF-4B14-8623-AF05C3623FC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{87437894-A730-4664-9614-240AF0C047C2} = {422D3A94-2546-4CE5-9E6E-59A528A2500C}
+		{6D1ECBAF-8787-4642-AB46-701D6B0ED6A8} = {422D3A94-2546-4CE5-9E6E-59A528A2500C}
+		{9B59859A-16CF-4B14-8623-AF05C3623FC7} = {422D3A94-2546-4CE5-9E6E-59A528A2500C}
 	EndGlobalSection
 EndGlobal
