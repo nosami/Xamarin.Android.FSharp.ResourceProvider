@@ -58,6 +58,7 @@
     <None Include="Properties\AndroidManifest.xml" />
     <AndroidAsset Include="Assets\AboutAssets.txt" />
     <Compile Include="MainActivity.fs" />
+    <PackageReference Include="ZXing.Net.Mobile" Version="2.4.1" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Runtime\Xamarin.Android.FSharp.ResourceProvider.Runtime.fsproj">
