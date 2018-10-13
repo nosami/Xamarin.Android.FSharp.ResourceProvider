@@ -1,0 +1,18 @@
+﻿#---------------------------------#
+#    environment configuration    #
+#---------------------------------#
+
+# Build worker image (VM template)
+image: Visual Studio 2017
+
+# scripts that are called at very beginning, before repo cloning
+init:
+  - git config --global core.autocrlf input
+  
+
+# build Configuration, i.e. Debug, Release, etc.
+configuration: Release
+
+build:
+  parallel: true                  # enable MSBuild parallel builds
+  project: Xamarin.Android.FSharp.ResourceProvider.sln
