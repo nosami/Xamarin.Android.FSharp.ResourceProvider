@@ -9,6 +9,9 @@ image: Visual Studio 2017
 init:
   - git config --global core.autocrlf input
   
+before_build:
+  - msbuild /t:Restore BlankFormsApp/BlankFormsApp.fsproj
+  - msbuild /t:Restore Droid/BlankFormsApp.Droid.fsproj
 
 # build Configuration, i.e. Debug, Release, etc.
 configuration: Release
